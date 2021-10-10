@@ -1,0 +1,1 @@
+This is a simple web page created as a part of The Odin Project curriculum. The goal is to become familiar with basic HTML and CSS.
