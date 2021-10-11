@@ -1,5 +1,7 @@
 h1 {
 
+    margin-top: 10px;
+    margin-bottom: -10px;
     text-align: center;
 }
 
@@ -7,13 +9,6 @@ h1 {
 
     font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
 
-}
-
-p, img, h1, h3, li{
-
-    margin-left: 40px;
-    margin-right: 40px;
-    
 }
 
 li{
@@ -30,12 +25,17 @@ p img{
 
     width: 250px;
     height: auto;
+    box-shadow: 10px 10px 5px #ccc;
 }
 
 .img-full {
 
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
     height: auto;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #ccc;
+    
 }
 
 .centered {
@@ -43,28 +43,37 @@ p img{
     text-align: center;
 }
 
-.width-limit {
+body {
 
-    /*width: 750px;*/
-    display: inline-block;
-    max-width: 750px;
-    overflow-wrap: break-word;
-    hyphens: auto;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: justify;
 }
 
+#home-link {
+
+    display:inline-block;
+    padding-top: 20px;
+
+}
+
 a:link {
+
     text-decoration: none;
 }
   
 a:visited {
+
     text-decoration: none;
 }
   
 a:hover {
+
     text-decoration: underline;
 }
   
 a:active {
+
     text-decoration: underline;
 }
