@@ -1,0 +1,70 @@
+h1 {
+
+    text-align: center;
+}
+
+* {
+
+    font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+
+}
+
+p, img, h1, h3, li{
+
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+li{
+    padding-bottom: 15px;
+}
+
+p img{
+
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.img-link {
+
+    width: 250px;
+    height: auto;
+}
+
+.img-full {
+
+    width: 500px;
+    height: auto;
+}
+
+.centered {
+
+    text-align: center;
+}
+
+.width-limit {
+
+    /*width: 750px;*/
+    display: inline-block;
+    max-width: 750px;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
